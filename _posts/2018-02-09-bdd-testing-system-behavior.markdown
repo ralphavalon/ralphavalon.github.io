@@ -47,8 +47,8 @@ Se tudo foi feito com sucesso, ao acessar [http://localhost:8081](http://localho
 
 * Antes de utilizar o Behave, vamos rapidamente entender a estrutura que ele é utilizado. Vamos utilizar uma pasta de nome *features*, mas que pode ser qualquer outro nome. Então devemos respeitar a seguinte estrutura:
 
-*features/*
-*features/steps/*
+*features/*  
+*features/steps/*  
 *features/environment.py* — (opcional)
 
 * A pasta *features* que definimos vai ter os arquivos de extensão *.feature*, que são os arquivos com os testes a serem executados
@@ -61,7 +61,7 @@ Se tudo foi feito com sucesso, ao acessar [http://localhost:8081](http://localho
 
 ### Adicionando o Behave:
 
-Vamos adicionar o arquivo *features/user.feature *e adicionar um teste simples:
+Vamos adicionar o arquivo *features/user.feature* e adicionar um teste simples:
 
     Funcionalidade: testando apenas o título
 
@@ -69,7 +69,7 @@ Vamos adicionar o arquivo *features/user.feature *e adicionar um teste simples:
         Dado que visito a pagina "[http://localhost:8081/](http://192.168.99.100:8081/)"
         Então deveria ter o titulo "Ralph Avalon - Java Sample Project"
 
-Precisamos abrir o Browser antes de cada teste e fechar ao terminar. Para que isso seja feito para cada teste, vamos adicionar o arquivo *features/environment.py* com as opções [*before_all](https://pythonhosted.org/behave/tutorial.html#environmental-controls)* e [*after_all](https://pythonhosted.org/behave/tutorial.html#environmental-controls)*:
+Precisamos abrir o Browser antes de cada teste e fechar ao terminar. Para que isso seja feito para cada teste, vamos adicionar o arquivo *features/environment.py* com as opções [before_all](https://pythonhosted.org/behave/tutorial.html#environmental-controls) e [after_all](https://pythonhosted.org/behave/tutorial.html#environmental-controls):
 
     from splinter import Browser
 
@@ -147,8 +147,8 @@ Temos um *input radio* que já vem marcado por padrão como *Masculino*, mas por
 
 Temos a seguinte estrutura para *input radio*:
 
-    <div class=”radio”>
-     <input type=”radio” name=”gender” id=”gender-male” value=”MALE”/>
+    <div class="radio">
+     <input type="radio" name="gender" id="gender-male" value="MALE"/>
      <span>Masculino</span>
     </div>
 
