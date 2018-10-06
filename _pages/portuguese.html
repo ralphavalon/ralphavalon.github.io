@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /portuguese/
+title: Meus posts em português
+---
+
+<div class="post-list">
+    {% for post in site.categories.portuguese %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        {% include post-cards.html %}
+    </a>
+    {% endfor %}
+</div>
