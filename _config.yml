@@ -47,6 +47,8 @@ markdown: kramdown
 
 include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
+paginate: 5
+
 author:
   name: Raphael Amoedo
   aka: Ralph Avalon
