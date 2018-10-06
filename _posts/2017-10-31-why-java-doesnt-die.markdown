@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Por que o Java não morre?"
+title:  "[MEDIUM] Por que o Java não morre?"
 description: Basta uma nova linguagem surgir que logo começam as projeções. Rumo aos 30 anos da linguagem, parece que Java se tornou a linguagem que todos amam odiar. Por que o Java não morre então?
 date:   2017-10-31 10:00:00 -0300
-categories: english
-author: ralphavalon
+categories: portuguese programming
+author: Ralph Avalon (Raphael Amoedo)
 ---
 
 ![World_x_Java]({{site.baseurl}}/images/world_x_java.jpeg)
@@ -18,7 +18,7 @@ Algumas pessoas diriam: ***JVM***. Bem, não. A JVM é incrível mas as linguage
 
 ***Java é lento.*** — Java **ERA **lento. Ganhou essa fama principalmente pelo antigo J2EE que precisava implementar milhares de coisas para fazer uma coisa simples. Hoje em dia, não é muito difícil encontrar benchmarks mostrando que Java se equipara e até supera em performance a [C++](http://blog.optionscity.com/java-vs.-c-performance-face-off-part-ii), [Go](https://benchmarksgame.alioth.debian.org/u64q/go.html), [Python](https://benchmarksgame.alioth.debian.org/u64q/compare.php?lang=java&lang2=python3) e outras linguagens.
 
-![Comparação de um algoritmo Java vs Python — Fonte: [http://bit.ly/2xAntxg](http://bit.ly/2xAntxg)]({{site.baseurl}}/images/java_x_python.jpeg)*Comparação de um algoritmo Java vs Python — Fonte: [http://bit.ly/2xAntxg](http://bit.ly/2xAntxg)*
+![Comparação de um algoritmo Java vs Python — Fonte: [http://bit.ly/2xAntxg](http://bit.ly/2xAntxg)]({{site.baseurl}}/images/java_x_python.png)*Comparação de um algoritmo Java vs Python — Fonte: [http://bit.ly/2xAntxg](http://bit.ly/2xAntxg)*
 
 ***Java é verboso.*** — Ok, se escrevia muito usando Java, mas depois de frameworks como [Spring Boot](https://projects.spring.io/spring-boot/) e [Lombok](http://jnb.ociweb.com/jnb/jnbJan2010.html) e próprias evoluções da linguagem, isso também não se aplica.
 
@@ -34,10 +34,10 @@ Tendo isso em mente, vamos aos reais motivos pelo qual o Java não morre:
 
 ## EXTRA:
 
-* **Cultura **— Esse pode ser só uma impressão minha e minha opinião, por isso coloquei no Extra, mas a comunidade Java tem uma cultura muito maior de boas práticas que outras linguagens, o que impacta diretamente na manutenção do código. Cultura de testes, SOLID, Clean Code, Design Patterns e outros são muito comuns de se ver dentro da comunidade Java.
+* **Cultura**— Esse pode ser só uma impressão minha e minha opinião, por isso coloquei no Extra, mas a comunidade Java tem uma cultura muito maior de boas práticas que outras linguagens, o que impacta diretamente na manutenção do código. Cultura de testes, SOLID, Clean Code, Design Patterns e outros são muito comuns de se ver dentro da comunidade Java.
 
 ## Conclusão:
 
 Querem matar o Java de qualquer maneira, mas não vai ser tão fácil. Com uma comunidade grande que direciona o crescimento da linguagem, Java tem se reinventado e resistido a cada linguagem que surge. Então, fica no ar a pergunta: O que vai matar o Java se o Java não morre?
 
-
+- Postado originalmente em: [https://medium.com/olxbr-tech/por-que-o-java-n%C3%A3o-morre-15c15736102](https://medium.com/olxbr-tech/por-que-o-java-n%C3%A3o-morre-15c15736102)
