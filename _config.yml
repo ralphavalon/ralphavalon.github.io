@@ -48,12 +48,19 @@ markdown: kramdown
 include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
 author:
-  name: Ashwathama
-  image: ashwat.jpg # The author image will be shown on the header. Place this image in /images/ folder.
-  about: Ashwathama is a sage who wrote Mahabharatha. He is the son of Drona. He fought on the Kaurava side against the Pandavas. He put up a pretty good fight with mighty Bhima.
-  twitter: webjeda  # https://twitter.com/ is automatically added
-  facebook: webjeda # https://facebook.com/ is automatically added
-  email: hello@webjeda.com # mailto: is automatically added
+  name: Raphael Amoedo a.k.a. Ralph Avalon
+  image: ralph.jpg # The author image will be shown on the header. Place this image in /images/ folder.
+  about: >
+   - Graduated in Computer Science - UVA-RJ
+   - Post-graduated in Software Engineering with JEE. - SENAC-RJ
+   - Working with Java since 2011, but I like other languages such as Python and Javascript
+   - I try to help the community whenever possible
+   - Canada lover
+   - Active user of Stackoverflow, Github and IT groups on Telegram
+   - Currently writing e-books to the future and soon writing on magazines
+  twitter: raphael_amoedo  # https://twitter.com/ is automatically added
+  linkedin: raphael_amoedo # https://facebook.com/ is automatically added
+  email: avalon.ralph@gmail.com # mailto: is automatically added
   
 gems: 
   - jekyll-seo-tag
