@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[MEDIUM] BDD — Testando o comportamento do sistema (Parte 1)"
-description: *“Se eu fizer isso e isso, eu espero esse resultado”* ? Não seria muito legal se pudéssemos escrever nossos testes assim?
+description: “Se eu fizer isso e isso, eu espero esse resultado” ? Não seria muito legal se pudéssemos escrever nossos testes assim?
 date:   2017-12-05 10:00:00 -0300
 categories: portuguese programming
 author: Ralph Avalon (Raphael Amoedo)
