@@ -9,7 +9,7 @@ author: Ralph Avalon (Raphael Amoedo)
 
 ![E agora, professor?]({{site.baseurl}}/images/functional_programming_overview_01.jpeg)
 
-Fonte: [https://www.youtube.com/watch?v=2OIPi1-3bzU](https://www.youtube.com/watch?v=2OIPi1-3bzU)
+*Fonte: [https://www.youtube.com/watch?v=2OIPi1-3bzU](https://www.youtube.com/watch?v=2OIPi1-3bzU)*
 
 Talvez um dos assuntos mais comentados atualmente, programação funcional ganha cada vez mais popularidade. Não é uma coisa necessariamente nova, mas que vem sendo cada vez mais utilizada. Orientação a objetos vai acabar? Programação funcional em tudo? Vamos entender um pouco dos conceitos e tirar nossas próprias conclusões.
 

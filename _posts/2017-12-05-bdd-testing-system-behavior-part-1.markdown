@@ -9,7 +9,7 @@ author: Ralph Avalon (Raphael Amoedo)
 
 ![You_x_Your_System]({{site.baseurl}}/images/you_x_your_system.jpeg)
 
-Imagem original: [https://www.ultracurioso.com.br/wp-content/uploads/2016/02/mulher-bronca-crianca-12226.jpg](https://www.ultracurioso.com.br/wp-content/uploads/2016/02/mulher-bronca-crianca-12226.jpg)
+*Imagem original: [https://www.ultracurioso.com.br/wp-content/uploads/2016/02/mulher-bronca-crianca-12226.jpg](https://www.ultracurioso.com.br/wp-content/uploads/2016/02/mulher-bronca-crianca-12226.jpg)*
 
 Não seria muito legal se pudéssemos dizer para os nossos testes: *“Se eu fizer isso e isso, eu espero esse resultado”* ? Tudo bem, talvez os testes já façam isso. Mas e se eu pudesse criar um teste literalmente escrevendo:
 

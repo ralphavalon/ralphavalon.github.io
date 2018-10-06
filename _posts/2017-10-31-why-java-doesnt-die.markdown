@@ -8,7 +8,7 @@ author: Ralph Avalon (Raphael Amoedo)
 ---
 
 ![World_x_Java]({{site.baseurl}}/images/world_x_java.jpeg)
-Fonte da imagem original: http://bit.ly/2lM5BhH
+*Fonte da imagem original: [http://bit.ly/2lM5BhH](http://bit.ly/2lM5BhH)*
 
 *"Kotlin vai matar o Java." "Scala vai matar o Java." "Groovy vai matar o Java." *Basta uma nova linguagem surgir que logo começam as projeções. Rumo aos 30 anos da linguagem (atualmente possui 22), parece que Java se tornou a linguagem que todos amam odiar.
 
