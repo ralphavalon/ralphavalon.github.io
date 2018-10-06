@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[MEDIUM][Part 1] BDD — Testando o comportamento do sistema"
+title:  "[MEDIUM] [Part 1] BDD — Testando o comportamento do sistema"
 description: “Se eu fizer isso e isso, eu espero esse resultado” ? Não seria muito legal se pudéssemos escrever nossos testes assim?
 date:   2017-12-05 10:00:00 -0300
 categories: portuguese programming
@@ -9,7 +9,7 @@ author: Ralph Avalon (Raphael Amoedo)
 
 ![You_x_Your_System]({{site.baseurl}}/images/you_x_your_system.jpeg)
 
-Imagem original: https://www.ultracurioso.com.br/wp-content/uploads/2016/02/mulher-bronca-crianca-12226.jpg
+Imagem original: [https://www.ultracurioso.com.br/wp-content/uploads/2016/02/mulher-bronca-crianca-12226.jpg](https://www.ultracurioso.com.br/wp-content/uploads/2016/02/mulher-bronca-crianca-12226.jpg)
 
 Não seria muito legal se pudéssemos dizer para os nossos testes: *“Se eu fizer isso e isso, eu espero esse resultado”* ? Tudo bem, talvez os testes já façam isso. Mas e se eu pudesse criar um teste literalmente escrevendo:
 
@@ -29,13 +29,19 @@ BDD é um conceito independente de linguagem. Existem implementações para toda
 
 Cada frase daquela é mapeada no código e executa alguma operação que você definir. Para o exemplo acima, seguem algumas implementações:
 
-![Exemplo de implementação em Python usando Behave]({{site.baseurl}}/images/bdd_example_02.png)*Exemplo de implementação em Python usando Behave*
+![Exemplo de implementação em Python usando Behave]({{site.baseurl}}/images/bdd_example_02.png)
 
-![Exemplo de implementação em Java usando JBehave (Fonte: [https://ralphavalonbr.wordpress.com/2016/05/28/10018/](https://ralphavalonbr.wordpress.com/2016/05/28/10018/))]({{site.baseurl}}/images/bdd_example_03.png)*Exemplo de implementação em Java usando JBehave (Fonte: [https://ralphavalonbr.wordpress.com/2016/05/28/10018/](https://ralphavalonbr.wordpress.com/2016/05/28/10018/))*
+*Exemplo de implementação em Python usando Behave*
+
+![Exemplo de implementação em Java usando JBehave (Fonte: [https://ralphavalonbr.wordpress.com/2016/05/28/10018/](https://ralphavalonbr.wordpress.com/2016/05/28/10018/))]({{site.baseurl}}/images/bdd_example_03.png)
+
+*Exemplo de implementação em Java usando JBehave (Fonte: [https://ralphavalonbr.wordpress.com/2016/05/28/10018/](https://ralphavalonbr.wordpress.com/2016/05/28/10018/))*
 
 Outro benefício interessante é utilizar BDD em testes de sistema¹, especialmente para páginas Web:
 
-![Fica bem claro de entender o que está sendo feito. (Exemplo em Python com Behave)]({{site.baseurl}}/images/bdd_example_04.png)*Fica bem claro de entender o que está sendo feito. (Exemplo em Python com Behave)*
+![Fica bem claro de entender o que está sendo feito. (Exemplo em Python com Behave)]({{site.baseurl}}/images/bdd_example_04.png)
+
+*Fica bem claro de entender o que está sendo feito. (Exemplo em Python com Behave)*
 > ¹ — Para saber mais sobre os tipos de testes: [https://ralphavalonbr.wordpress.com/2016/04/30/10014/](https://ralphavalonbr.wordpress.com/2016/04/30/10014/)
 
 Vale lembrar que ao permitir que outras pessoas escrevam testes, minimiza o risco dos projetos e reduz custos de manutenção, pois alguém pode escrever algum teste para algum caso antes não pensado e isso pode ser tratado cedo.
@@ -44,7 +50,9 @@ Vale lembrar que ao permitir que outras pessoas escrevam testes, minimiza o risc
 
 Não. O Behave, por exemplo, tem suporte a internacionalização, então o mesmo exemplo acima pode ser criado da seguinte forma:
 
-![Behave (Python) possui suporte para muitas linguagens, inclusive português]({{site.baseurl}}/images/bdd_example_05.png)*Behave (Python) possui suporte para muitas linguagens, inclusive português*
+![Behave (Python) possui suporte para muitas linguagens, inclusive português]({{site.baseurl}}/images/bdd_example_05.png)
+
+*Behave (Python) possui suporte para muitas linguagens, inclusive português*
 
 **Meu sistema não é em Python e sim em Golang. Tenho que usar um framework em Golang?**
 
