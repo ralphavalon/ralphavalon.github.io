@@ -66,7 +66,7 @@ Vamos adicionar o arquivo *features/user.feature* e adicionar um teste simples:
     Funcionalidade: testando apenas o título
 
     Cenário: deve possuir o título correto
-        Dado que visito a pagina "[http://localhost:8081/](http://192.168.99.100:8081/)"
+        Dado que visito a pagina "http://localhost:8081/"
         Então deveria ter o titulo "Ralph Avalon - Java Sample Project"
 
 Precisamos abrir o Browser antes de cada teste e fechar ao terminar. Para que isso seja feito para cada teste, vamos adicionar o arquivo *features/environment.py* com as opções [before_all](https://pythonhosted.org/behave/tutorial.html#environmental-controls) e [after_all](https://pythonhosted.org/behave/tutorial.html#environmental-controls):
@@ -126,7 +126,7 @@ Agora, vamos alterar nosso arquivo user.feature :
     Funcionalidade: fluxo de criação de usuário
 
     Cenário: deveria criar um usuário
-        Dado que visito a pagina "[http://localhost:8081/](http://192.168.99.100:8081/)"
+        Dado que visito a pagina "http://localhost:8081/"
         Então deveria ter o titulo "Ralph Avalon - Java Sample Project"
 
         Quando preencho o campo "Nome" com o valor "Raphael Amoedo"
@@ -181,7 +181,7 @@ Vamos adicionar esses passos ao nosso test.feature:
     Funcionalidade: fluxo de criação de usuário
 
     Cenário: deveria criar um usuário
-        Dado que visito a pagina "[http://localhost:8081/](http://192.168.99.100:8081/)"
+        Dado que visito a pagina "http://localhost:8081/"
         Então deveria ter o titulo "Ralph Avalon - Java Sample Project"
 
         Quando preencho o campo "Nome" com o valor "Raphael Amoedo"
