@@ -44,17 +44,11 @@ change-date-bg: no
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
 
 include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
 author:
-  name: | 
-   Raphael Amoedo
-   a.k.a.
-   Ralph Avalon
+  name: "Raphael Amoedo\na.k.a.\nRalph Avalon"
   image: ralph.jpg # The author image will be shown on the header. Place this image in /images/ folder.
   about: |
    - Graduated in Computer Science - UVA-RJ
