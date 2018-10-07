@@ -14,18 +14,18 @@ pagination:
         </a>
         {% endfor %}
     </div>
-    {% if site.total_pages > 1 %}
-    <ul>
-        {% if site.previous_page %}
-        <li>
-            <a href="{{ site.previous_page_path | prepend: site.baseurl }}">Newer</a>
-        </li>
+    <!-- Pagination links -->
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% else %}
+        <span class="previous">Previous</span>
         {% endif %}
-        {% if site.next_page %}
-        <li>
-            <a href="{{ site.next_page_path | prepend: site.baseurl }}">Older</a>
-        </li>
+        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% else %}
+        <span class="next ">Next</span>
         {% endif %}
-    </ul>
-    {% endif %}
+    </div>
 </div>
