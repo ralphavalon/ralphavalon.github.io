@@ -76,7 +76,4 @@ author:
   linkedin: raphael_amoedo # https://facebook.com/ is automatically added
   email: avalon.ralph@gmail.com # mailto: is automatically added
   
-gems: 
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-paginate-v2
+gems: [jekyll-paginate-v2, jekyll-seo-tag]
