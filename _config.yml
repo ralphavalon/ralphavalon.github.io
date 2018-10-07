@@ -49,7 +49,6 @@ include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
-# The values here represent the defaults if nothing is set
 pagination:
   enabled: true
   per_page: 3
@@ -79,4 +78,5 @@ author:
   
 gems: 
   - jekyll-seo-tag
+  - jekyll-paginate
   - jekyll-paginate-v2
