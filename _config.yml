@@ -73,6 +73,5 @@ author:
   twitter: raphael_amoedo  # https://twitter.com/ is automatically added
   linkedin: raphael_amoedo # https://facebook.com/ is automatically added
   email: avalon.ralph@gmail.com # mailto: is automatically added
-  
-gems: [jekyll-paginate-v2, jekyll-seo-tag]
-plugins: [jekyll-paginate-v2]
+
+plugins: [jekyll-paginate-v2, jekyll-seo-tag]
