@@ -52,12 +52,14 @@ include: [_pages] # Includes files inside _pages directory [Do not remove this]
 pagination:
   enabled: true
   per_page: 3
-  permalink: '/page/:num/'
+  permalink: '/page:num/'
   title_suffix: ' - page :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
 
+paginate: 5
+paginate_path: /page:num/
 ############################################################
 
 author:
@@ -76,5 +78,5 @@ author:
   linkedin: raphael_amoedo # https://facebook.com/ is automatically added
   email: avalon.ralph@gmail.com # mailto: is automatically added
   
-gems: [jekyll-paginate-v2, jekyll-seo-tag]
-plugins: [jekyll-paginate-v2]
+gems: [jekyll-paginate-v2, jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate-v2, jekyll-paginate]
