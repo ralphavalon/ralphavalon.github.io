@@ -48,16 +48,7 @@ markdown: kramdown
 include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
 ############################################################
-# Site configuration for the Jekyll 3 Pagination Gem
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/page:num/'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-
-paginate: 3
+paginate: 10
 paginate_path: "/page:num/"
 ############################################################
 
