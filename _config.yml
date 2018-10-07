@@ -77,3 +77,4 @@ author:
   email: avalon.ralph@gmail.com # mailto: is automatically added
   
 gems: [jekyll-paginate-v2, jekyll-seo-tag]
+plugins: [jekyll-paginate-v2]
