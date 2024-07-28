@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiple Counters with Closures and Labels</title>
+</head>
+<body>
+    <button id="resetAll">Reset All</button>
+    <p/>
+    <input type="checkbox" id="hp" name="hp" value="hp">
+    <label for="hp"> HP < 6999</label><br/>
+
+    <input type="checkbox" id="facedown" name="facedown" value="facedown">
+    <label for="facedown"> 1 Face down card</label><br/>
+
+    <input type="checkbox" id="threecards" name="threecards" value="threecards">
+    <label for="threecards"> < 3 cards</label><br/>
+
+    <div id="counterContainer"></div>
+
+    <script>
+        // Function that creates a counter with increment, decrement, and reset methods
+        function createCounter(label, expectedValue) {
+            let count = 0; // Counter variable
+
+            // Create a span element for the label
+            const labelSpan = document.createElement('span');
+            labelSpan.textContent = label + ': ';
+
+            const initialElement = document.createElement('p');
+            initialElement.textContent = 0;
+            initialElement.style.color = 'red';
+
+            return {
+                increment: function() {
+                    count++;
+                    if(count >= expectedValue) {
+                        this.display.style.color = 'green';
+                    } else {
+                        this.display.style.color = 'red';
+                    }
+                    this.display.textContent = count;
+                },
+                decrement: function() {
+                    if (count > 0) {
+                        count--;
+                    }
+                    if(count >= expectedValue) {
+                        this.display.style.color = 'green';
+                    } else {
+                        this.display.style.color = 'red';
+                    }
+                    this.display.textContent = count;
+                },
+                reset: function() {
+                    count = 0;
+                    this.display.textContent = count;
+                    this.display.style.color = 'red';
+                },
+                display: initialElement, // Display element for the counter
+                labelSpan: labelSpan // Span element for the label
+            };
+        }
+
+        // Counter manager object
+        const counterManager = {
+            counters: [],
+            addCounter: function(label, expectedValue) {
+                const counter = createCounter(label, expectedValue);
+                this.counters.push(counter);
+                document.getElementById('counterContainer').appendChild(document.createElement('br'));
+                document.getElementById('counterContainer').appendChild(counter.labelSpan);
+                document.getElementById('counterContainer').appendChild(counter.display);
+                // Add buttons for increment, decrement, and reset for the new counter
+                const incrementButton = document.createElement('button');
+                incrementButton.textContent = 'Increment';
+                incrementButton.addEventListener('click', counter.increment.bind(counter));
+                document.getElementById('counterContainer').appendChild(incrementButton);
+
+                const decrementButton = document.createElement('button');
+                decrementButton.textContent = 'Decrement';
+                decrementButton.addEventListener('click', counter.decrement.bind(counter));
+                document.getElementById('counterContainer').appendChild(decrementButton);
+
+                const resetButton = document.createElement('button');
+                resetButton.textContent = 'Reset';
+                resetButton.addEventListener('click', counter.reset.bind(counter));
+                document.getElementById('counterContainer').appendChild(resetButton);
+                document.getElementById('counterContainer').appendChild(document.createElement('br'));
+            },
+            resetAll: function() {
+                this.counters.forEach(counter => counter.reset());
+                document.querySelectorAll('input[type=checkbox]').forEach(el => el.checked = false);
+            }
+        };
+        
+        counterManager.addCounter('Effective Attacks', 4);
+        counterManager.addCounter('Fusions', 15);
+        counterManager.addCounter('Equips', 1);
+        counterManager.addCounter('Magics', 1);
+        counterManager.addCounter('Traps', 1);
+
+        // Add event listener to the "Reset All" button
+        document.getElementById('resetAll').addEventListener('click', counterManager.resetAll.bind(counterManager));
+    </script>
+</body>
+</html>
